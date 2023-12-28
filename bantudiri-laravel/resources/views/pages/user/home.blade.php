@@ -110,7 +110,7 @@
     </section>
 
     <section class=" bg-white mt-5">
-        <div class="section-info" data-aos="fade-up" data-aos-duration="1500">
+        <div class="section-info" data-aos="fade-up" data-aos-duration="1000">
         <div class="container-xxl mx-auto position-relative">
             <div class="row align-items-center">
             

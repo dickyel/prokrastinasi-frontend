@@ -50,7 +50,20 @@ class QuestionUserController extends Controller
 
         $levelName = $this->getLevelName($totalScore);
 
-        return view('pages.user.selesai', compact('levelName'));
+        $viewName = 'pages.user.selesai';
+
+        if($levelName == 'Ringan'){
+            $viewName .='-ringan';
+        } elseif ($levelName == 'Sedang'){
+            $viewName .= '-sedang';
+        } elseif ($levelName == 'Berat'){
+            $viewName .='-berat';
+        } else {
+            $viewName .='-invalid';
+        }
+
+
+        return view($viewName, compact('levelName'));
     }
 
     public function saveResponse(Request $request)

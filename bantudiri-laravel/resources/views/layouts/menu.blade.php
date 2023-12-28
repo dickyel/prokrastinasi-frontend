@@ -155,12 +155,12 @@
 							<div class="list-space">
 								<img src="assets/logo-white.svg"
 									alt="" />
-                                <p>Produktif adalah kunci untuk sukses dalam hidup,<br> walaupun terasa berat tapi kalian pasti menemukannya,<br> jangan menyerah yah.....</p>
+                                <p>Bantudiri.com adalah platform berbasis website untuk membantu kamu yang ingin mengembangkan diri dan membangun kesejahteraan pribadi. </p>
                                 
                                  <a href="#" style="width: 40px;"><i class="fab fa-facebook" style="color: #fff;"></i></a>
                                  <a href="#" style="width: 40px;"><i class="fab fa-instagram" style="color: #fff;"></i></a>
                                  <a href="#" style="width: 40px;"><i class="fab fa-tiktok" style="color: #fff;"></i></a>
-                                 <a href="#" style="width: 40px; color: #fff;"><i class="fab fa-whatsapp" style="color: #fff;"></i></a>
+                                 <a href="https://wa.me/6285163679522" target="_blank" style="width: 40px; color: #fff;"><i class="fab fa-whatsapp" style="color: #fff;"></i></a>
 
                
 							</div>
@@ -170,31 +170,30 @@
 					<div class="col-lg-4 col-md-6 ">
 						<h2 class="footer-text-title ">Menu</h2>
 						<nav class="list-unstyled">
+                     <li class="list-space">
+								<a href="{{ route('home') }}" class="list-menu">Beranda</a>
+							</li>
+							
 							<li class="list-space">
-								<a href="" class="list-menu">Beranda</a>
+								<a href="{{ route('test-user') }}" class="list-menu">Tes Prokrastinasi</a>
 							</li>
 							<li class="list-space">
-								<a href="" class="list-menu">About</a>
+								<a href="{{ route('faq') }}" class="list-menu">Faq</a>
 							</li>
 							<li class="list-space">
-								<a href="" class="list-menu">Tes Prokrastinasi</a>
-							</li>
-							<li class="list-space">
-								<a href="" class="list-menu">Faq</a>
-							</li>
-							<li class="list-space">
-								<a href="" class="list-menu">Contact us</a>
+								<a href="{{ route('contact') }}" class="list-menu">Contact us</a>
 							</li>
 						</nav>
 					</div>
 					<div class="col-lg-3 col-md-6 ">
 						<h2 class="footer-text-title">Alamat</h2>
 						<nav class="list-unstyled">
-							<li class="list-space">
-							bantudiri@gmail.com
+                     <li class="list-space">
+                        <a href="" target="_blank">bantudiri@gmail.com</a>
+				
 							</li>
 							<li class="list-space">
-								Jl. Tasikmalaya
+                        Jl. Tamansari No.KM 2,5, Mulyasari, Kec. Tamansari, Kab. Tasikmalaya, Jawa Barat 46196
 							</li>
 						
 						</nav>
